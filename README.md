@@ -1,6 +1,6 @@
 # DIO project
 
-Utilizei recursos do bootstrap para a realização do projeto.
+Using bootstrap resources.
 
 ## Tela do instagram
 
