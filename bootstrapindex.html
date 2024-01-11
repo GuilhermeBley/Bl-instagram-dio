@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100 w-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Instagram</title>
+    <style>
+        @media (max-width: 775px) {
+            .instagram-phone {
+                display: none;
+            }
+        }
+
+        .app-download {
+            height: 3rem;
+            width: 10rem;
+            background-size: cover;
+        }
+
+        .app-download:nth-child(1) {
+            background-image: url('./img/apple-button.png');
+        }
+
+        .app-download:nth-child(2) {
+            background-image: url('./img/googleplay-button.png');
+        }
+    </style>
+</head>
+
+<body class="h-100 w-100">
+    <div class="container-fluid bg-light h-100 w-100">
+        <div class="row justify-content-center text-center d-flex">
+            <div class="col-md-6 instagram-phone">
+                <img src="./img/instagram-celular.png" alt="celular" class="img-fluid"
+                    style="min-width: 410px; min-height: 410px; max-height: 40rem;">
+            </div>
+            <div class="mt-5 col-md-4 w-auto h-auto">
+                <div class="card" style="max-width: 30rem;">
+                    <div class="card-body">
+                        <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo" width="149"
+                            height="42">
+                        <div class="mb-3">
+                            <img src="./img/perfil-instagram.jpg" alt="foto de perfil" class="rounded-circle"
+                                width="150" height="150">
+                        </div>
+                        <div class="mb-2">
+                            <a href="#" class="btn btn-primary opacity-75">Continue como guilherme__bley</a>
+                        </div>
+                        <div class="mb-2">
+                            <a href="#" class="btn text-primary border-0 opacity-75">Remover conta</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="max-width: 30rem;">
+                    <div class="card-body">
+                        <p class="m-0 text-secondary">Não é guilherme__bley?</p>
+                        <p class="m-0">
+                            <a href="#" class="btn bg-transparent border-0 text-primary">Alternar contas</a>
+                            ou
+                            <a href="#" class="btn bg-transparent border-0 text-primary">Inscreva-se</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card border-0 bg-transparent" style="max-width: 30rem;">
+                    <div class="card-body">
+                        <p>Baixe o aplicativo</p>
+                        <div>
+                            <button class="btn" type="button">
+                                <img src="./img/apple-button.png" alt="Image Button" width="140" height="42">
+                              </button>
+                              <button class="btn" type="button">
+                                <img src="./img/googleplay-button.png" alt="Image Button" width="140" height="42">
+                              </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
